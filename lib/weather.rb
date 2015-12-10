@@ -1,7 +1,8 @@
 require "net/http"
 require "json"
 require "pry"
-
+require 'dotenv'
+Dotenv.load
 
 
 class Weather
