@@ -1,0 +1,9 @@
+<div class="small-6 small-offset-3 columns">
+    <div class="callout primary">
+      <h3>Weather: <%= @geolocation.city %></h3>
+      <p>
+        Current Condition: <b><i><%= @weather.weather_data["currently"]["summary"] %></i></b><br>
+        Current Temperature: <%= @weather.weather_data["currently"]["temperature"] %> F<br>
+      </p>
+    </div>
+</div>
